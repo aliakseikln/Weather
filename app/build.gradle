@@ -59,5 +59,9 @@ dependencies {
     debugImplementation "androidx.compose.ui:ui-tooling:$compose_version"
     debugImplementation "androidx.compose.ui:ui-test-manifest:$compose_version"
 
+    //Volley is an HTTP library that makes networking for Android apps easier and most importantly, faster.
     implementation 'com.android.volley:volley:1.2.1'
+
+    //An image loading library for Android backed by Kotlin Coroutines
+    implementation "io.coil-kt:coil-compose:2.0.0"
 }
