@@ -59,13 +59,13 @@ dependencies {
     debugImplementation "androidx.compose.ui:ui-tooling:$compose_version"
     debugImplementation "androidx.compose.ui:ui-test-manifest:$compose_version"
 
-    //Volley is an HTTP library that makes networking for Android apps easier and most importantly, faster.
+    //Volley - an HTTP library that makes networking for Android apps easier and most importantly, faster.
     implementation 'com.android.volley:volley:1.2.1'
 
-    //An image loading library for Android backed by Kotlin Coroutines
+    //Coil - an image loading library for Android backed by Kotlin Coroutines
     implementation "io.coil-kt:coil-compose:2.0.0"
 
-    //Accompanist is a labs like environment for new Compose APIs. We use it to help fill known gaps in the Compose toolkit, experiment with new APIs and to gather insight into the development experience of developing a Compose library.
+    //Accompanist - a labs like environment for new Compose APIs. We use it to help fill known gaps in the Compose toolkit, experiment with new APIs and to gather insight into the development experience of developing a Compose library.
     implementation("com.google.accompanist:accompanist-pager:0.19.0")
     implementation("com.google.accompanist:accompanist-pager-indicators:0.19.0")
 }
